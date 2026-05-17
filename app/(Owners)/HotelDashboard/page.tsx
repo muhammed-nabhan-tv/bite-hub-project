@@ -102,7 +102,6 @@ export default function HotelHome() {
     <div ref={containerRef} className="bg-[#050505] text-[#fafafa] overflow-x-hidden">
       <NavbarRestaurant />
 
-      {/* --- HERO SECTION (Sticky) --- */}
       <section
         ref={heroRef}
         className="relative h-screen flex items-center justify-center overflow-hidden z-0"
@@ -128,7 +127,7 @@ export default function HotelHome() {
         </div>
       </section>
 
-      {/* --- DASHBOARD CONTENT --- */}
+
       <div className="relative z-10 bg-[#050505] shadow-[0_-50px_100px_rgba(0,0,0,0.9)] rounded-t-[3rem] border-t border-white/5">
 
         {/* Quick Stats */}

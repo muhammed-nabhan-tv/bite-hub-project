@@ -68,7 +68,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
   const login = async (email: string, password: string) => {
     try {
-      // CHECK STUDENTS
+
       const studentRes = await api.get<User[]>(`/users?email=${email}`);
 
       if (studentRes.data.length > 0) {

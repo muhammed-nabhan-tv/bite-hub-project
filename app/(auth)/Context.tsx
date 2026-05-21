@@ -56,7 +56,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
-  // Load user from localStorage
+
   useEffect(() => {
     const storedUser = localStorage.getItem("bitehub_user");
     if (storedUser) {
@@ -65,7 +65,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     setLoading(false);
   }, []);
 
-  // LOGIN
+
   const login = async (email: string, password: string) => {
     try {
       // CHECK STUDENTS

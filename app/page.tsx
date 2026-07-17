@@ -7,34 +7,34 @@ export default function Home() {
 
   const router = useRouter();
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    const storedUser = localStorage.getItem("bitehub_user");
+  //   const storedUser = localStorage.getItem("bitehub_user");
 
-    // No user logged in
-    if (!storedUser) {
-      router.push("/Login");
-      return;
-    }
+  //   // No user logged in
+  //   if (!storedUser) {
+  //     router.push("/Login");
+  //     return;
+  //   }
 
-    const user = JSON.parse(storedUser);
+  //   const user = JSON.parse(storedUser);
 
-    //  Hotel Owner
-    if (user.role === "hotel") {
-      router.push("/HotelDashboard");
-    }
+  //   //  Hotel Owner
+  //   if (user.role === "hotel") {
+  //     router.push("/HotelDashboard");
+  //   }
 
-    //  Student
-    else if (user.role === "student") {
-      router.push("/studentHome");
-    }
+  //   //  Student
+  //   else if (user.role === "student") {
+  //     router.push("/studentHome");
+  //   }
 
-    //  Unknown role
-    else {
-      router.push("/Login");
-    }
+  //   //  Unknown role
+  //   else {
+  //     router.push("/Login");
+  //   }
 
-  }, []);
+  // }, []);
 
   // Loading screen while redirecting
   return (

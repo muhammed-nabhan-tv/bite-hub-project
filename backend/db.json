@@ -1,0 +1,359 @@
+{
+  "users": [
+    {
+      "id": "1770278618517",
+      "name": "muhamme nabhan",
+      "email": "user@gmail.com",
+      "password": "zxcvbnm",
+      "role": "student",
+      "isloggingIn": true,
+      "createdAt": "2026-02-05T08:03:38.517Z",
+      "mealsOrdered": [],
+      "preBookedMeals": [],
+      "pin": "1111",
+      "isBlocked": false
+    },
+    {
+      "id": "1772599922688",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "zxcvbnm",
+      "role": "admin",
+      "createdAt": "2026-03-04T04:52:02.706Z",
+      "isloggingIn": false
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1771402018323",
+      "hotelName": "Rahmath",
+      "email": "rahmath@gmail.com",
+      "address": "123 Main Street, Cityville ....",
+      "contactNumber": "372648264186347",
+      "description": "A cozy restaurant serving delicious meals.vadmsvdh",
+      "password": "zxcvbnm",
+      "role": "hotel",
+      "lat": "11.279174499808903",
+      "lng": "75.77786663393958",
+      "createdAt": "2026-02-18T08:06:58.337Z",
+      "isloggingIn": false,
+      "closingTime": "2 AM",
+      "isBlocked": false
+    },
+    {
+      "id": "1772531327256",
+      "hotelName": "paragon",
+      "email": "paragon@gmail.com",
+      "password": "zxcvbnm",
+      "role": "hotel",
+      "createdAt": "2026-03-03T09:48:47.269Z",
+      "address": "jsnbdhskcnsdnsuajdmsndjsuhcs mnsdkdsjd",
+      "description": "",
+      "contactNumber": "628239822923",
+      "lat": "11.287851196052456",
+      "lng": "75.8066306668317",
+      "isloggingIn": true,
+      "isBlocked": false
+    }
+  ],
+  "meals": [
+    {
+      "id": "1",
+      "restaurantId": "1771402018323",
+      "hotelName": "Rahmath",
+      "foodName": "Vegetable Biryani",
+      "expiryTime": "2026-03-28T19:20:00.000Z",
+      "price": 40,
+      "type": "veg",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21bc4a4f8?auto=format&fit=crop&w=800&q=80",
+      "expired": true
+    },
+    {
+      "id": "2",
+      "restaurantId": "1771402018323",
+      "hotelName": "Rahmath",
+      "foodName": "Chicken Curry",
+      "expiryTime": "2026-03-28T19:20:00.000Z",
+      "distance": "2.5",
+      "price": 60,
+      "type": "non-veg",
+      "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=800&q=80",
+      "expired": false
+    },
+    {
+      "id": "3",
+      "restaurantId": "1771402018323",
+      "foodName": "Kuzhimanthi",
+      "hotelName": "Soofi Mandi",
+      "expiryTime": "2026-03-28T19:20:00.000Z",
+      "distance": "0.8",
+      "price": 80,
+      "type": "non-veg",
+      "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=800&q=80",
+      "expired": false
+    },
+    {
+      "id": "4",
+      "restaurantId": "1771402018323",
+      "hotelName": "Nahdi Mandi",
+      "foodName": "Beef Roast & Porotta",
+      "expiryTime": "2026-03-28T19:20:00.000Z",
+      "distance": "3.1",
+      "price": 50,
+      "type": "non-veg",
+      "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?auto=format&fit=crop&w=800&q=80",
+      "expired": false
+    },
+    {
+      "id": "5",
+      "restaurantId": "1771402018323",
+      "hotelName": "Sufi Darbar",
+      "foodName": "Grilled Chicken",
+      "expiryTime": "2026-03-28T19:20:00.000Z",
+      "distance": "1.5",
+      "price": 75,
+      "type": "non-veg",
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80",
+      "expired": false
+    },
+    {
+      "id": "6",
+      "restaurantId": "1771402018323",
+      "hotelName": "Paragon",
+      "foodName": "Malabar Snacks Box",
+      "expiryTime": "2026-03-28T19:20:00.000Z",
+      "distance": "4.2",
+      "price": 20,
+      "type": "veg",
+      "image": "https://images.unsplash.com/photo-1601050638911-c32395c1f54a?auto=format&fit=crop&w=800&q=80",
+      "expired": false
+    },
+    {
+      "id": "7",
+      "restaurantId": "1771402018323",
+      "hotelName": "Soofi Mandi",
+      "foodName": "Paneer Tikka",
+      "expiryTime": "2026-03-28T19:20:00.000Z",
+      "distance": "2.0",
+      "price": 45,
+      "type": "veg",
+      "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80",
+      "expired": false
+    },
+    {
+      "id": "8",
+      "restaurantId": "1771402018323",
+      "hotelName": "Paragon",
+      "foodName": "Fish Curry",
+      "expiryTime": "2026-03-28T19:20:00.000Z",
+      "distance": "0.5",
+      "price": 30,
+      "type": "non-veg",
+      "image": "https://images.unsplash.com/photo-1626132646529-500637532537?auto=format&fit=crop&w=800&q=80",
+      "expired": false
+    },
+    {
+      "id": "end42dl",
+      "hotelName": "rahmath",
+      "foodName": "chicke",
+      "price": 10,
+      "restaurantId": "1771402018323",
+      "type": "veg",
+      "image": "https://w0.peakpx.com/wallpaper/101/95/HD-wallpaper-burgers-fast-food-delicious-food-sandwiches-harmful-food.jpg",
+      "expiryTime": "2026-03-28T10:43:55.205Z",
+      "expired": false
+    },
+    {
+      "id": "ultlpgt",
+      "hotelName": "rahmath",
+      "foodName": "mandhi",
+      "price": 111,
+      "restaurantId": "1771402018323",
+      "type": "non-veg",
+      "image": "https://burmawalakitchen.com/wp-content/uploads/2024/05/lamb-Mandi-4-768x1024.jpg",
+      "expiryTime": "2026-03-25T11:40:18.694Z",
+      "restaurantLat": 11.2588,
+      "restaurantLng": 75.7804,
+      "expired": false
+    },
+    {
+      "id": "wx7pu1u",
+      "hotelName": "Rehmath",
+      "foodName": "Ice Creame",
+      "price": 35,
+      "restaurantId": "1771402018323",
+      "type": "veg",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdz7O5YLx9IFznt1rGVB6UNwdRRsXJBLrrkQ&s",
+        "https://chocolatecoveredkatie.com/wp-content/uploads/2022/04/Chocolate-Sorbet.jpg"
+      ],
+      "expiryTime": "2026-03-07T07:03:20.710Z",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdz7O5YLx9IFznt1rGVB6UNwdRRsXJBLrrkQ&s",
+      "restaurantLat": "11.279174499808903",
+      "restaurantLng": "75.77786663393958",
+      "expired": true
+    }
+  ],
+  "mealsOrdered": [
+    {
+      "id": "09d3",
+      "mealId": "1",
+      "mealName": "Vegetable Biryani",
+      "hotelName": "rahmath 1",
+      "price": 40,
+      "restaurantId": "1771402018323",
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "bookingRef": "BITE-IBEHA",
+      "status": "paid",
+      "timestamp": "2026-02-16T10:03:35.795Z"
+    },
+    {
+      "id": "09d4",
+      "mealId": "1",
+      "mealName": "Vegetable Biryani",
+      "hotelName": "rahmath 1",
+      "price": 40,
+      "restaurantId": "1771402018323",
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "bookingRef": "BITE-IBEHA",
+      "status": "paid",
+      "timestamp": "2026-02-16T10:03:35.795Z"
+    },
+    {
+      "id": "afc4",
+      "mealId": "2",
+      "mealName": "Chicken Curry",
+      "hotelName": "Rahmath",
+      "restaurantId": "1771402018323",
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "date": "2026-02-20",
+      "time": "11:11",
+      "status": "booked",
+      "bookingRef": "RES-LGGSS",
+      "orderComplete": true
+    },
+    {
+      "id": "eb1b",
+      "mealId": "end42dl",
+      "mealName": "chicke",
+      "hotelName": "rahmath",
+      "price": 10,
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "bookingRef": "BITE-2DHBM",
+      "paymentStatus": "paid",
+      "timestamp": "2026-03-05T07:11:34.786Z",
+      "status": "processing",
+      "restaurantId": "1771402018323"
+    },
+    {
+      "id": "edb4",
+      "mealId": "2",
+      "mealName": "Chicken Curry",
+      "hotelName": "Rahmath",
+      "price": 60,
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "bookingRef": "BITE-WQVRT",
+      "paymentStatus": "paid",
+      "timestamp": "2026-03-05T08:10:10.616Z",
+      "status": "processing",
+      "restaurantId": "1771402018323"
+    },
+    {
+      "id": "f48a",
+      "mealId": "2",
+      "mealName": "Chicken Curry",
+      "hotelName": "Rahmath",
+      "price": 60,
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "bookingRef": "BITE-E3O3I",
+      "paymentStatus": "paid",
+      "timestamp": "2026-03-05T08:11:10.318Z",
+      "status": "processing",
+      "restaurantId": "1771402018323"
+    },
+    {
+      "id": "c149",
+      "mealId": "end42dl",
+      "mealName": "chicke",
+      "hotelName": "rahmath",
+      "price": 10,
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "bookingRef": "BITE-YNQ1C",
+      "paymentStatus": "paid",
+      "timestamp": "2026-03-05T08:12:04.917Z",
+      "status": "processing",
+      "restaurantId": "1771402018323"
+    },
+    {
+      "id": "3923",
+      "mealId": "ud4xm66",
+      "mealName": "Chicken Pizza",
+      "hotelName": "Rahmath",
+      "restaurantId": "1771402018323",
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "date": "2026-04-23",
+      "time": "02:13",
+      "status": "booked",
+      "bookingRef": "RES-LI6GG",
+      "orderComplete": true
+    }
+  ],
+  "preBookedMeals": [
+    {
+      "id": "afc5",
+      "mealId": "2",
+      "mealName": "Chicken Curry",
+      "hotelName": "Rahmath",
+      "restaurantId": "1771402018323",
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "date": "2026-02-20",
+      "time": "11:11",
+      "status": "booked",
+      "bookingRef": "RES-LGGSS"
+    },
+    {
+      "id": "8b02",
+      "mealId": "ud4xm66",
+      "mealName": "Chicken Pizza",
+      "hotelName": "Rahmath",
+      "restaurantId": "1771402018323",
+      "customerName": "muhamme nabhan",
+      "customerEmail": "user@gmail.com",
+      "date": "2027-02-23",
+      "time": "12:00",
+      "status": "booked",
+      "bookingRef": "RES-NS77J"
+    }
+  ],
+  "menus": [
+    {
+      "id": "de44us4",
+      "foodName": "ice cream",
+      "price": 40,
+      "type": "non-veg",
+      "image": "https://chocolatecoveredkatie.com/wp-content/uploads/2022/04/Chocolate-Sorbet.jpg",
+      "description": "How to make the best rich and creamy chocolate sorbet recipe at home, with no eggs or dairy.",
+      "hotelId": "1771402018323",
+      "hotelName": "Rahmath"
+    },
+    {
+      "id": "ud4xm66",
+      "foodName": "Chicken Pizza",
+      "price": 120,
+      "type": "non-veg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/50/07/9f/photo0jpg.jpg?w=900&h=500&s=1",
+      "description": "Pizza is a globally popular Italian dish originating from Naples, consisting of a flattened, baked bread dough base traditionally topped with tomatoes, mozzarella cheese, and olive oil.",
+      "hotelId": "1771402018323",
+      "hotelName": "Rahmath"
+    }
+  ]
+}

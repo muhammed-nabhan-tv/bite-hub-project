@@ -2,9 +2,17 @@ const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
 const cors = require("cors");
+const jsonServer = require("json-server");
+const path = require("path");
 
 const app = express();
 app.use(cors());
+
+// Setup JSON Server as middleware
+const router = jsonServer.router(path.join(__dirname, "db.json"));
+const middlewares = jsonServer.defaults();
+app.use(middlewares);
+app.use(router);
 
 const server = http.createServer(app);
 

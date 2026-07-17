@@ -20,7 +20,7 @@ export default function StudentLayout({ children }: { children: React.ReactNode 
     // --- Smooth Scrolling (Lenis) ---
     const lenis = new Lenis({
       duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       direction: 'vertical',
       gestureDirection: 'vertical',
       smooth: true,
@@ -28,7 +28,7 @@ export default function StudentLayout({ children }: { children: React.ReactNode 
       smoothTouch: false,
       touchMultiplier: 2,
       infinite: false,
-    });
+    } as any);
 
     lenis.on('scroll', ScrollTrigger.update);
 
